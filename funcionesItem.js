@@ -27,9 +27,17 @@ function sweetSimple(datos,producto){
     title: producto,
     text: datos,
     icon: 'info',
-    confirmButtonText: 'Comprar'
-
-    })
+    confirmButtonText: 'Comprar',
+    showCloseButton: true
+    }).then((result) => {
+        if (result.isConfirmed) {
+            Swal.fire({
+                title: "Compra:",
+                text: "Compra realizada con exito!",
+                icon: "info",
+            });
+        }
+    });
 }
 
 boton1.addEventListener("click", function(){

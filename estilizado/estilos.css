@@ -68,6 +68,8 @@ label{
     border-style: solid;
     border-radius: 1.5vw;
     background-color: #FFFFFF;
+    
+    cursor: pointer;
 }
 
 .item i{
@@ -76,6 +78,7 @@ label{
 
 .item:hover{
     border-color: #f86f6f;
+
 }
 
 .item .nombre:hover{
@@ -84,6 +87,15 @@ label{
 
 .item .info:hover{
     color: #f86f6f;
+}
+
+.modo{
+    background-color: transparent;
+    border-radius: 1vw;
+}
+
+.modo i{
+    font-size: 4vw;
 }
 
 @font-face {

@@ -69,6 +69,7 @@ label{
 
 button{
     border-radius: 1vw;
+    cursor: pointer;
 }
 
 
