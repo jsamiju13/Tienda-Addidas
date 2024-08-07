@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="estilizado/estilosItem.css">
+<body>
+    
+    <div class="general">
+    
+        <div class="titulo"> 
+            <center>
+                <h1>nombre del articulo</h1>
+            </center>
+        </div>
+
+        <div class="imagen">
+            <img src="" alt="">
+        </div>
+
+        <div class="info">
+            <label>precio del item</label>
+            <form>
+                <label class="label1">Método de pago:</label>
+                <select class="metodo" name="opciones">
+                    <option>Paypal</option>
+                    <option>Visa</option>
+                    <option>Master Card</option>
+                </select>
+            </form>
+            <form>
+                <label class="label2">Direccion:</label>
+                <input type="text" class="direccion" placeholder="Casa, Departamento...">
+            </form>
+        </div>
+
+        <div class="pago">
+            <button class="boton">comprar</button>
+        </div>
+    
+    </div>
+
+    <script src="paquetes/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="funcionesItem.js"></script>
+</body>
+</html>

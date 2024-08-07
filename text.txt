@@ -1,0 +1,4 @@
+    confirmButtonColor:confirmButton,
+    color: titleColor,
+    iconColor: color_icon,
+    background:color_background, 
